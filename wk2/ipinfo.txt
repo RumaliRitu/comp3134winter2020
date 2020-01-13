@@ -1,0 +1,29 @@
+Facebook.ca
+
+IP Address: 31.13.71.1
+Geolocation: IE (Ireland), N/A, N/A, N/A N/A - Google Maps
+
+
+youtube.ca
+IP Address: 172.217.10.238
+
+Geolocation: US (United States), CA, California, 94043 Mountain View - Google Maps
+
+intagram.ca
+
+IP Address: 31.13.71.1
+
+Geolocation: IE (Ireland), N/A, N/A, N/A N/A - Google Maps
+
+
+yahoo.ca
+
+IP Address: 98.136.103.24
+
+Geolocation: US (United States), CA, California, 94089 Sunnyvale - Google Maps
+
+ttc.ca
+
+IP Address: 69.172.201.18
+
+Geolocation: US (United States), N/A, N/A, N/A N/A - Google Maps

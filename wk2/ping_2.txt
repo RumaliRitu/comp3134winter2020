@@ -1,0 +1,17 @@
+Microsoft Windows [Version 10.0.18362.295]
+(c) 2019 Microsoft Corporation. All rights reserved.
+
+C:\Users\101165654>ping 159.203.15.18
+
+Pinging 159.203.15.18 with 32 bytes of data:
+Reply from 159.203.15.18: bytes=32 time=2ms TTL=57
+Reply from 159.203.15.18: bytes=32 time=1ms TTL=57
+Reply from 159.203.15.18: bytes=32 time=1ms TTL=57
+Reply from 159.203.15.18: bytes=32 time=1ms TTL=57
+
+Ping statistics for 159.203.15.18:
+    Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 1ms, Maximum = 2ms, Average = 1ms
+
+C:\Users\101165654>
