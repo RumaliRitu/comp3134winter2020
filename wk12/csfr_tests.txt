@@ -1,0 +1,1 @@
+It takes us directly to csfr_action.php with correct credentials  and shows the form.
