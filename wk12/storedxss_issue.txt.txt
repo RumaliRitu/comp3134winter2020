@@ -1,0 +1,1 @@
+Reading and outputting file from a file directory with php it shows whatever is in the file into a form of html document.As we have used a javascript command as  a link it takes to the directory traversal page in the text file and the read file takes us to the directory, This can be used by attackers to access any file, so long as they enter in the file url into the script tag.
