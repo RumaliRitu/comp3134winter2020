@@ -1,0 +1,2 @@
+In the browser after submitting Ben did not returned anything because the active number is '0' and Ben’--  Does not return anything as well.
+Ben’ or 1=1  This returns the name only the name as I did not expected.
