@@ -1,0 +1,412 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+04:39:34.086588 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 1472249746:1472249854, ack 2641393555, win 319, length 108
+04:39:34.086800 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 108:144, ack 1, win 319, length 36
+04:39:34.086900 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 144:252, ack 1, win 319, length 108
+04:39:34.086973 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 252:288, ack 1, win 319, length 36
+04:39:34.089170 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 288:492, ack 1, win 319, length 204
+04:39:34.089283 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 492:528, ack 1, win 319, length 36
+04:39:34.089472 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 528:708, ack 1, win 319, length 180
+04:39:34.089588 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 708:744, ack 1, win 319, length 36
+04:39:34.089700 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 744:924, ack 1, win 319, length 180
+04:39:34.124557 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 108, win 2098, length 0
+04:39:34.124633 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 924:2256, ack 1, win 319, length 1332
+04:39:34.124904 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 2256:2420, ack 1, win 319, length 164
+04:39:34.125047 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 2420:2456, ack 1, win 319, length 36
+04:39:34.125215 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 2456:2636, ack 1, win 319, length 180
+04:39:34.126463 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 252, win 2097, length 0
+04:39:34.126518 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 2636:3320, ack 1, win 319, length 684
+04:39:34.126664 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 3320:3484, ack 1, win 319, length 164
+04:39:34.126782 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 3484:3520, ack 1, win 319, length 36
+04:39:34.126888 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 3520:3700, ack 1, win 319, length 180
+04:39:34.128434 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 492, win 2096, length 0
+04:39:34.128465 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 3700:4384, ack 1, win 319, length 684
+04:39:34.128665 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 4384:4548, ack 1, win 319, length 164
+04:39:34.128789 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 4548:4584, ack 1, win 319, length 36
+04:39:34.128952 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 4584:4764, ack 1, win 319, length 180
+04:39:34.130361 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 708, win 2095, length 0
+04:39:34.130394 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 4764:5448, ack 1, win 319, length 684
+04:39:34.130414 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 924, win 2094, length 0
+04:39:34.130538 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 5448:5612, ack 1, win 319, length 164
+04:39:34.130617 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 5612:5648, ack 1, win 319, length 36
+04:39:34.130750 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 5648:5828, ack 1, win 319, length 180
+04:39:34.130824 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 5828:5864, ack 1, win 319, length 36
+04:39:34.130938 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 5864:6028, ack 1, win 319, length 164
+04:39:34.131013 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 6028:6064, ack 1, win 319, length 36
+04:39:34.131126 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 6064:6244, ack 1, win 319, length 180
+04:39:34.163505 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2420, win 2098, length 0
+04:39:34.163582 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 6244:7576, ack 1, win 319, length 1332
+04:39:34.163821 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 7576:7740, ack 1, win 319, length 164
+04:39:34.163965 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 7740:7776, ack 1, win 319, length 36
+04:39:34.164140 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 7776:7956, ack 1, win 319, length 180
+04:39:34.165440 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 2636, win 2097, length 0
+04:39:34.165495 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 7956:8640, ack 1, win 319, length 684
+04:39:34.165678 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 8640:8804, ack 1, win 319, length 164
+04:39:34.165770 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 8804:8840, ack 1, win 319, length 36
+04:39:34.165883 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 8840:9020, ack 1, win 319, length 180
+04:39:34.167360 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3484, win 2094, length 0
+04:39:34.167404 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 9020:9704, ack 1, win 319, length 684
+04:39:34.167577 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 9704:9868, ack 1, win 319, length 164
+04:39:34.167764 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 9868:10200, ack 1, win 319, length 332
+04:39:34.167903 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 10200:10380, ack 1, win 319, length 180
+04:39:34.169329 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 3700, win 2093, length 0
+04:39:34.169366 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 10380:10568, ack 1, win 319, length 188
+04:39:34.169543 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 10568:10884, ack 1, win 319, length 316
+04:39:34.169664 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 10884:11072, ack 1, win 319, length 188
+04:39:34.169773 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 11072:11260, ack 1, win 319, length 188
+04:39:34.171312 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4548, win 2098, length 0
+04:39:34.171353 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 11260:11448, ack 1, win 319, length 188
+04:39:34.171378 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 4764, win 2097, length 0
+04:39:34.171579 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 11448:11892, ack 1, win 319, length 444
+04:39:34.171723 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 11892:12080, ack 1, win 319, length 188
+04:39:34.171835 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 12080:12268, ack 1, win 319, length 188
+04:39:34.171943 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 12268:12456, ack 1, win 319, length 188
+04:39:34.172051 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 12456:12644, ack 1, win 319, length 188
+04:39:34.172198 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 12644:12832, ack 1, win 319, length 188
+04:39:34.172330 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 12832:13020, ack 1, win 319, length 188
+04:39:34.173764 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5612, win 2094, length 0
+04:39:34.173798 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 13020:13208, ack 1, win 319, length 188
+04:39:34.173821 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 5828, win 2093, length 0
+04:39:34.174043 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 13208:13652, ack 1, win 319, length 444
+04:39:34.174241 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 13652:13840, ack 1, win 319, length 188
+04:39:34.174432 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 13840:14028, ack 1, win 319, length 188
+04:39:34.174614 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 14028:14216, ack 1, win 319, length 188
+04:39:34.174879 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 14216:14404, ack 1, win 319, length 188
+04:39:34.175048 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 14404:14592, ack 1, win 319, length 188
+04:39:34.175194 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 14592:14780, ack 1, win 319, length 188
+04:39:34.175687 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6028, win 2098, length 0
+04:39:34.175729 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 14780:14968, ack 1, win 319, length 188
+04:39:34.175781 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 6244, win 2097, length 0
+04:39:34.176036 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 14968:15412, ack 1, win 319, length 444
+04:39:34.176226 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 15412:15600, ack 1, win 319, length 188
+04:39:34.176357 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 15600:15788, ack 1, win 319, length 188
+04:39:34.176471 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 15788:15976, ack 1, win 319, length 188
+04:39:34.176586 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 15976:16164, ack 1, win 319, length 188
+04:39:34.176698 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 16164:16352, ack 1, win 319, length 188
+04:39:34.176810 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 16352:16540, ack 1, win 319, length 188
+04:39:34.204379 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7740, win 2098, length 0
+04:39:34.204484 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 16540:16728, ack 1, win 319, length 188
+04:39:34.204517 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 7956, win 2097, length 0
+04:39:34.204838 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 16728:17172, ack 1, win 319, length 444
+04:39:34.205020 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 17172:17360, ack 1, win 319, length 188
+04:39:34.205171 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 17360:17548, ack 1, win 319, length 188
+04:39:34.205317 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 17548:17736, ack 1, win 319, length 188
+04:39:34.205462 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 17736:17924, ack 1, win 319, length 188
+04:39:34.205581 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 17924:18112, ack 1, win 319, length 188
+04:39:34.205690 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 18112:18300, ack 1, win 319, length 188
+04:39:34.206333 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 8804, win 2094, length 0
+04:39:34.206371 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 18300:18488, ack 1, win 319, length 188
+04:39:34.206392 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 9020, win 2093, length 0
+04:39:34.206582 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 18488:18932, ack 1, win 319, length 444
+04:39:34.206730 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 18932:19120, ack 1, win 319, length 188
+04:39:34.206830 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 19120:19308, ack 1, win 319, length 188
+04:39:34.206927 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 19308:19496, ack 1, win 319, length 188
+04:39:34.207023 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 19496:19684, ack 1, win 319, length 188
+04:39:34.207117 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 19684:19872, ack 1, win 319, length 188
+04:39:34.207208 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 19872:20060, ack 1, win 319, length 188
+04:39:34.208510 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 9868, win 2098, length 0
+04:39:34.208537 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 20060:20248, ack 1, win 319, length 188
+04:39:34.208554 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10380, win 2096, length 0
+04:39:34.208710 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 20248:20692, ack 1, win 319, length 444
+04:39:34.208811 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 20692:20880, ack 1, win 319, length 188
+04:39:34.208902 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 20880:21068, ack 1, win 319, length 188
+04:39:34.208992 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 21068:21256, ack 1, win 319, length 188
+04:39:34.209084 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 21256:21444, ack 1, win 319, length 188
+04:39:34.209289 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 21444:21632, ack 1, win 319, length 188
+04:39:34.209396 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 21632:21820, ack 1, win 319, length 188
+04:39:34.210418 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 10884, win 2094, length 0
+04:39:34.210445 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 21820:22008, ack 1, win 319, length 188
+04:39:34.210587 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 22008:22324, ack 1, win 319, length 316
+04:39:34.210716 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 22324:22512, ack 1, win 319, length 188
+04:39:34.210816 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 22512:22700, ack 1, win 319, length 188
+04:39:34.212669 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 11260, win 2093, length 0
+04:39:34.212695 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 22700:22888, ack 1, win 319, length 188
+04:39:34.212840 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 22888:23204, ack 1, win 319, length 316
+04:39:34.212944 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 23204:23392, ack 1, win 319, length 188
+04:39:34.213039 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 23392:23580, ack 1, win 319, length 188
+04:39:34.214636 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 11892, win 2098, length 0
+04:39:34.214667 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 23580:23768, ack 1, win 319, length 188
+04:39:34.214809 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 23768:24084, ack 1, win 319, length 316
+04:39:34.214907 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 24084:24272, ack 1, win 319, length 188
+04:39:34.214999 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 24272:24460, ack 1, win 319, length 188
+04:39:34.216663 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 12268, win 2097, length 0
+04:39:34.216686 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 24460:24648, ack 1, win 319, length 188
+04:39:34.216818 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 24648:24964, ack 1, win 319, length 316
+04:39:34.216916 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 24964:25152, ack 1, win 319, length 188
+04:39:34.217018 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 25152:25340, ack 1, win 319, length 188
+04:39:34.218603 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 12644, win 2095, length 0
+04:39:34.218628 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 25340:25528, ack 1, win 319, length 188
+04:39:34.218649 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13020, win 2094, length 0
+04:39:34.218818 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 25528:25980, ack 1, win 319, length 452
+04:39:34.218920 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 25980:26168, ack 1, win 319, length 188
+04:39:34.219010 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 26168:26356, ack 1, win 319, length 188
+04:39:34.219101 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 26356:26544, ack 1, win 319, length 188
+04:39:34.219193 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 26544:26732, ack 1, win 319, length 188
+04:39:34.219285 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 26732:26920, ack 1, win 319, length 188
+04:39:34.219378 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 26920:27108, ack 1, win 319, length 188
+04:39:34.220513 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 13652, win 2098, length 0
+04:39:34.220536 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 27108:27296, ack 1, win 319, length 188
+04:39:34.220551 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14028, win 2097, length 0
+04:39:34.220688 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 27296:27748, ack 1, win 319, length 452
+04:39:34.220786 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 27748:27936, ack 1, win 319, length 188
+04:39:34.220881 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 27936:28124, ack 1, win 319, length 188
+04:39:34.220973 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 28124:28312, ack 1, win 319, length 188
+04:39:34.221070 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 28312:28500, ack 1, win 319, length 188
+04:39:34.221189 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 28500:28688, ack 1, win 319, length 188
+04:39:34.221293 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 28688:28876, ack 1, win 319, length 188
+04:39:34.222774 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14404, win 2095, length 0
+04:39:34.222799 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 28876:29064, ack 1, win 319, length 188
+04:39:34.222818 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 14780, win 2094, length 0
+04:39:34.222965 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 29064:29516, ack 1, win 319, length 452
+04:39:34.223070 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 29516:29704, ack 1, win 319, length 188
+04:39:34.223166 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 29704:29892, ack 1, win 319, length 188
+04:39:34.223268 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 29892:30080, ack 1, win 319, length 188
+04:39:34.223358 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 30080:30268, ack 1, win 319, length 188
+04:39:34.223456 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 30268:30456, ack 1, win 319, length 188
+04:39:34.223550 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 30456:30644, ack 1, win 319, length 188
+04:39:34.225027 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 15412, win 2098, length 0
+04:39:34.225050 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 30644:30832, ack 1, win 319, length 188
+04:39:34.225066 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 15788, win 2097, length 0
+04:39:34.225225 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 30832:31284, ack 1, win 319, length 452
+04:39:34.225330 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 31284:31472, ack 1, win 319, length 188
+04:39:34.225430 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 31472:31660, ack 1, win 319, length 188
+04:39:34.225524 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 31660:31848, ack 1, win 319, length 188
+04:39:34.225618 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 31848:32036, ack 1, win 319, length 188
+04:39:34.225710 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 32036:32224, ack 1, win 319, length 188
+04:39:34.225803 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 32224:32412, ack 1, win 319, length 188
+04:39:34.226954 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 16164, win 2095, length 0
+04:39:34.226978 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 32412:32600, ack 1, win 319, length 188
+04:39:34.226995 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 16540, win 2094, length 0
+04:39:34.227145 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 32600:33052, ack 1, win 319, length 452
+04:39:34.227244 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 33052:33240, ack 1, win 319, length 188
+04:39:34.227343 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 33240:33428, ack 1, win 319, length 188
+04:39:34.227439 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 33428:33616, ack 1, win 319, length 188
+04:39:34.227542 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 33616:33804, ack 1, win 319, length 188
+04:39:34.227637 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 33804:33992, ack 1, win 319, length 188
+04:39:34.227733 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 33992:34180, ack 1, win 319, length 188
+04:39:34.245449 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 17172, win 2098, length 0
+04:39:34.245523 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 34180:34368, ack 1, win 319, length 188
+04:39:34.245551 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 17548, win 2097, length 0
+04:39:34.245807 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 34368:34820, ack 1, win 319, length 452
+04:39:34.245923 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 34820:35008, ack 1, win 319, length 188
+04:39:34.246025 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 35008:35196, ack 1, win 319, length 188
+04:39:34.246118 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 35196:35384, ack 1, win 319, length 188
+04:39:34.246214 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 35384:35572, ack 1, win 319, length 188
+04:39:34.246309 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 35572:35760, ack 1, win 319, length 188
+04:39:34.246401 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 35760:35948, ack 1, win 319, length 188
+04:39:34.276286 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 17924, win 2095, length 0
+04:39:34.276362 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 35948:36136, ack 1, win 319, length 188
+04:39:34.276626 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 36136:36452, ack 1, win 319, length 316
+04:39:34.276731 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 36452:36640, ack 1, win 319, length 188
+04:39:34.276827 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 36640:36828, ack 1, win 319, length 188
+04:39:34.278156 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 18300, win 2094, length 0
+04:39:34.278182 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 36828:37016, ack 1, win 319, length 188
+04:39:34.278199 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 18932, win 2098, length 0
+04:39:34.278351 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 37016:37468, ack 1, win 319, length 452
+04:39:34.278459 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 37468:37656, ack 1, win 319, length 188
+04:39:34.278569 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 37656:37844, ack 1, win 319, length 188
+04:39:34.278665 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 37844:38032, ack 1, win 319, length 188
+04:39:34.278806 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 38032:38220, ack 1, win 319, length 188
+04:39:34.278899 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 38220:38408, ack 1, win 319, length 188
+04:39:34.278993 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 38408:38596, ack 1, win 319, length 188
+04:39:34.280133 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 19308, win 2097, length 0
+04:39:34.280156 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 38596:38784, ack 1, win 319, length 188
+04:39:34.280172 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 19684, win 2095, length 0
+04:39:34.280320 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 38784:39236, ack 1, win 319, length 452
+04:39:34.280423 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 39236:39424, ack 1, win 319, length 188
+04:39:34.280520 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 39424:39612, ack 1, win 319, length 188
+04:39:34.280613 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 39612:39800, ack 1, win 319, length 188
+04:39:34.280706 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 39800:39988, ack 1, win 319, length 188
+04:39:34.280800 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 39988:40176, ack 1, win 319, length 188
+04:39:34.280893 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 40176:40364, ack 1, win 319, length 188
+04:39:34.282416 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 20060, win 2094, length 0
+04:39:34.282460 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 40364:40552, ack 1, win 319, length 188
+04:39:34.282497 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 20692, win 2098, length 0
+04:39:34.282761 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 40552:41004, ack 1, win 319, length 452
+04:39:34.282918 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 41004:41192, ack 1, win 319, length 188
+04:39:34.283052 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 41192:41380, ack 1, win 319, length 188
+04:39:34.283201 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 41380:41568, ack 1, win 319, length 188
+04:39:34.283325 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 41568:41756, ack 1, win 319, length 188
+04:39:34.283451 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 41756:41944, ack 1, win 319, length 188
+04:39:34.283597 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 41944:42132, ack 1, win 319, length 188
+04:39:34.284353 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 21068, win 2097, length 0
+04:39:34.284383 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 42132:42320, ack 1, win 319, length 188
+04:39:34.284401 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 21444, win 2095, length 0
+04:39:34.284574 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 42320:42772, ack 1, win 319, length 452
+04:39:34.284695 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 42772:42960, ack 1, win 319, length 188
+04:39:34.284805 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 42960:43148, ack 1, win 319, length 188
+04:39:34.284926 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 43148:43336, ack 1, win 319, length 188
+04:39:34.285049 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 43336:43524, ack 1, win 319, length 188
+04:39:34.285198 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 43524:43712, ack 1, win 319, length 188
+04:39:34.285321 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 43712:43900, ack 1, win 319, length 188
+04:39:34.286346 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 21820, win 2094, length 0
+04:39:34.286379 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 43900:44088, ack 1, win 319, length 188
+04:39:34.286398 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 22324, win 2098, length 0
+04:39:34.286574 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 44088:44540, ack 1, win 319, length 452
+04:39:34.286726 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 44540:44728, ack 1, win 319, length 188
+04:39:34.286837 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 44728:44916, ack 1, win 319, length 188
+04:39:34.286950 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 44916:45104, ack 1, win 319, length 188
+04:39:34.287078 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 45104:45292, ack 1, win 319, length 188
+04:39:34.287193 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 45292:45480, ack 1, win 319, length 188
+04:39:34.287300 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 45480:45668, ack 1, win 319, length 188
+04:39:34.288290 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 22700, win 2097, length 0
+04:39:34.288329 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 45668:45856, ack 1, win 319, length 188
+04:39:34.288353 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 23204, win 2095, length 0
+04:39:34.288570 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 45856:46308, ack 1, win 319, length 452
+04:39:34.288701 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 46308:46496, ack 1, win 319, length 188
+04:39:34.288813 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 46496:46684, ack 1, win 319, length 188
+04:39:34.288921 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 46684:46872, ack 1, win 319, length 188
+04:39:34.289027 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 46872:47060, ack 1, win 319, length 188
+04:39:34.289169 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 47060:47248, ack 1, win 319, length 188
+04:39:34.289353 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 47248:47436, ack 1, win 319, length 188
+04:39:34.290268 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 23580, win 2093, length 0
+04:39:34.290305 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 47436:47624, ack 1, win 319, length 188
+04:39:34.290331 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24084, win 2098, length 0
+04:39:34.290546 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 47624:48076, ack 1, win 319, length 452
+04:39:34.290782 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 48076:48264, ack 1, win 319, length 188
+04:39:34.290995 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 48264:48452, ack 1, win 319, length 188
+04:39:34.291166 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 48452:48640, ack 1, win 319, length 188
+04:39:34.291352 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 48640:48828, ack 1, win 319, length 188
+04:39:34.291478 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 48828:49016, ack 1, win 319, length 188
+04:39:34.291587 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 49016:49204, ack 1, win 319, length 188
+04:39:34.292797 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24460, win 2097, length 0
+04:39:34.292839 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 49204:49392, ack 1, win 319, length 188
+04:39:34.292864 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 24964, win 2095, length 0
+04:39:34.293069 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 49392:49844, ack 1, win 319, length 452
+04:39:34.293275 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 49844:50032, ack 1, win 319, length 188
+04:39:34.293396 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 50032:50220, ack 1, win 319, length 188
+04:39:34.293510 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 50220:50408, ack 1, win 319, length 188
+04:39:34.293627 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 50408:50596, ack 1, win 319, length 188
+04:39:34.293743 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 50596:50784, ack 1, win 319, length 188
+04:39:34.293893 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 50784:50972, ack 1, win 319, length 188
+04:39:34.294809 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 25340, win 2093, length 0
+04:39:34.294856 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 50972:51160, ack 1, win 319, length 188
+04:39:34.294889 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 25980, win 2098, length 0
+04:39:34.295104 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 51160:51612, ack 1, win 319, length 452
+04:39:34.295225 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 51612:51800, ack 1, win 319, length 188
+04:39:34.295332 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 51800:51988, ack 1, win 319, length 188
+04:39:34.295438 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 51988:52176, ack 1, win 319, length 188
+04:39:34.295544 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 52176:52364, ack 1, win 319, length 188
+04:39:34.295650 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 52364:52552, ack 1, win 319, length 188
+04:39:34.295812 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 52552:52740, ack 1, win 319, length 188
+04:39:34.296739 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 26356, win 2097, length 0
+04:39:34.296776 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 52740:52928, ack 1, win 319, length 188
+04:39:34.296801 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 26732, win 2095, length 0
+04:39:34.297005 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 52928:53380, ack 1, win 319, length 452
+04:39:34.297219 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 53380:53568, ack 1, win 319, length 188
+04:39:34.297396 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 53568:53756, ack 1, win 319, length 188
+04:39:34.297520 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 53756:53944, ack 1, win 319, length 188
+04:39:34.297630 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 53944:54132, ack 1, win 319, length 188
+04:39:34.297738 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 54132:54320, ack 1, win 319, length 188
+04:39:34.297843 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 54320:54508, ack 1, win 319, length 188
+04:39:34.298677 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 27108, win 2094, length 0
+04:39:34.298717 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 54508:54696, ack 1, win 319, length 188
+04:39:34.298748 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 27748, win 2098, length 0
+04:39:34.298999 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 54696:55148, ack 1, win 319, length 452
+04:39:34.299128 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 55148:55336, ack 1, win 319, length 188
+04:39:34.299236 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 55336:55524, ack 1, win 319, length 188
+04:39:34.299344 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 55524:55712, ack 1, win 319, length 188
+04:39:34.299484 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 55712:55900, ack 1, win 319, length 188
+04:39:34.299592 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 55900:56088, ack 1, win 319, length 188
+04:39:34.299722 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 56088:56276, ack 1, win 319, length 188
+04:39:34.300637 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 28124, win 2097, length 0
+04:39:34.300670 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 56276:56464, ack 1, win 319, length 188
+04:39:34.300692 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 28500, win 2095, length 0
+04:39:34.300874 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 56464:56916, ack 1, win 319, length 452
+04:39:34.300995 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 56916:57104, ack 1, win 319, length 188
+04:39:34.301132 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 57104:57292, ack 1, win 319, length 188
+04:39:34.301252 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 57292:57480, ack 1, win 319, length 188
+04:39:34.301396 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 57480:57668, ack 1, win 319, length 188
+04:39:34.301527 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 57668:57856, ack 1, win 319, length 188
+04:39:34.301640 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 57856:58044, ack 1, win 319, length 188
+04:39:34.302875 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 28876, win 2094, length 0
+04:39:34.302913 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 58044:58232, ack 1, win 319, length 188
+04:39:34.302938 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 29516, win 2098, length 0
+04:39:34.303158 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 58232:58684, ack 1, win 319, length 452
+04:39:34.303294 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 58684:58872, ack 1, win 319, length 188
+04:39:34.303424 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 58872:59060, ack 1, win 319, length 188
+04:39:34.303534 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 59060:59248, ack 1, win 319, length 188
+04:39:34.303639 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 59248:59436, ack 1, win 319, length 188
+04:39:34.303745 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 59436:59624, ack 1, win 319, length 188
+04:39:34.303871 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 59624:59812, ack 1, win 319, length 188
+04:39:34.304803 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 29892, win 2097, length 0
+04:39:34.304838 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 59812:60000, ack 1, win 319, length 188
+04:39:34.304859 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 30268, win 2095, length 0
+04:39:34.305155 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 60000:60452, ack 1, win 319, length 452
+04:39:34.305397 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 60452:60640, ack 1, win 319, length 188
+04:39:34.305609 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 60640:60828, ack 1, win 319, length 188
+04:39:34.305772 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 60828:61016, ack 1, win 319, length 188
+04:39:34.305891 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 61016:61204, ack 1, win 319, length 188
+04:39:34.306000 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 61204:61392, ack 1, win 319, length 188
+04:39:34.306107 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 61392:61580, ack 1, win 319, length 188
+04:39:34.306835 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 30644, win 2094, length 0
+04:39:34.306867 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 61580:61768, ack 1, win 319, length 188
+04:39:34.306886 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 31284, win 2098, length 0
+04:39:34.307062 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 61768:62220, ack 1, win 319, length 452
+04:39:34.307176 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 62220:62408, ack 1, win 319, length 188
+04:39:34.307282 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 62408:62596, ack 1, win 319, length 188
+04:39:34.307392 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 62596:62784, ack 1, win 319, length 188
+04:39:34.307497 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 62784:62972, ack 1, win 319, length 188
+04:39:34.307601 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 62972:63160, ack 1, win 319, length 188
+04:39:34.307734 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 63160:63348, ack 1, win 319, length 188
+04:39:34.308814 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 31660, win 2097, length 0
+04:39:34.308868 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 63348:63536, ack 1, win 319, length 188
+04:39:34.308907 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 32036, win 2095, length 0
+04:39:34.309212 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 63536:63988, ack 1, win 319, length 452
+04:39:34.309388 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 63988:64176, ack 1, win 319, length 188
+04:39:34.309509 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 64176:64364, ack 1, win 319, length 188
+04:39:34.309623 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 64364:64552, ack 1, win 319, length 188
+04:39:34.309729 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 64552:64740, ack 1, win 319, length 188
+04:39:34.309838 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 64740:64928, ack 1, win 319, length 188
+04:39:34.309942 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 64928:65116, ack 1, win 319, length 188
+04:39:34.310980 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 32412, win 2094, length 0
+04:39:34.311018 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 65116:65304, ack 1, win 319, length 188
+04:39:34.311042 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 33052, win 2098, length 0
+04:39:34.311275 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 65304:65756, ack 1, win 319, length 452
+04:39:34.311403 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 65756:65944, ack 1, win 319, length 188
+04:39:34.311520 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 65944:66132, ack 1, win 319, length 188
+04:39:34.311627 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 66132:66320, ack 1, win 319, length 188
+04:39:34.311771 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 66320:66508, ack 1, win 319, length 188
+04:39:34.311985 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 66508:66696, ack 1, win 319, length 188
+04:39:34.312198 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 66696:66884, ack 1, win 319, length 188
+04:39:34.313234 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 33428, win 2097, length 0
+04:39:34.313268 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 66884:67072, ack 1, win 319, length 188
+04:39:34.313290 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 33804, win 2095, length 0
+04:39:34.313511 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 67072:67524, ack 1, win 319, length 452
+04:39:34.313713 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 67524:67712, ack 1, win 319, length 188
+04:39:34.313882 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 67712:67900, ack 1, win 319, length 188
+04:39:34.314005 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 67900:68088, ack 1, win 319, length 188
+04:39:34.314113 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 68088:68276, ack 1, win 319, length 188
+04:39:34.314292 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 68276:68464, ack 1, win 319, length 188
+04:39:34.314427 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 68464:68652, ack 1, win 319, length 188
+04:39:34.315157 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 34180, win 2094, length 0
+04:39:34.315189 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 68652:68840, ack 1, win 319, length 188
+04:39:34.315210 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 34820, win 2098, length 0
+04:39:34.315387 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 68840:69292, ack 1, win 319, length 452
+04:39:34.315502 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 69292:69480, ack 1, win 319, length 188
+04:39:34.315614 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 69480:69668, ack 1, win 319, length 188
+04:39:34.315736 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 69668:69856, ack 1, win 319, length 188
+04:39:34.315842 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 69856:70044, ack 1, win 319, length 188
+04:39:34.315952 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 70044:70232, ack 1, win 319, length 188
+04:39:34.316060 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 70232:70420, ack 1, win 319, length 188
+04:39:34.317178 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 35196, win 2097, length 0
+04:39:34.317215 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 70420:70608, ack 1, win 319, length 188
+04:39:34.317240 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 35572, win 2095, length 0
+04:39:34.317443 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 70608:71060, ack 1, win 319, length 452
+04:39:34.317575 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 71060:71248, ack 1, win 319, length 188
+04:39:34.317689 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 71248:71436, ack 1, win 319, length 188
+04:39:34.317804 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 71436:71624, ack 1, win 319, length 188
+04:39:34.317921 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 71624:71812, ack 1, win 319, length 188
+04:39:34.318042 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 71812:72000, ack 1, win 319, length 188
+04:39:34.318222 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 72000:72188, ack 1, win 319, length 188
+04:39:34.319092 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 35948, win 2094, length 0
+04:39:34.319127 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 72188:72376, ack 1, win 319, length 188
+04:39:34.319315 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 72376:72692, ack 1, win 319, length 316
+04:39:34.319441 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 72692:72880, ack 1, win 319, length 188
+04:39:34.319560 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 72880:73068, ack 1, win 319, length 188
+04:39:34.321128 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 36452, win 2098, length 0
+04:39:34.321160 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 73068:73256, ack 1, win 319, length 188
+04:39:34.321180 IP dsl-173-206-219-44.tor.primus.ca.54505 > lamp-s-1vcpu-1gb-tor1-01.ssh: Flags [.], ack 36828, win 2097, length 0
+04:39:34.321353 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 73256:73708, ack 1, win 319, length 452
+04:39:34.321476 IP lamp-s-1vcpu-1gb-tor1-01.ssh > dsl-173-206-219-44.tor.primus.ca.54505: Flags [P.], seq 73708:73896, ack 1, win 319, length 188
