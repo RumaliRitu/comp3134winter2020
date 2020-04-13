@@ -1,0 +1,10 @@
+11 packets captured
+11 packets received by filter
+0 packets dropped by kernel
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump icmp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+02:28:04.183319 IP lamp-s-1vcpu-1gb-tor1-01 > 64.225.45.79: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 68
+02:28:13.244576 IP lamp-s-1vcpu-1gb-tor1-01 > 5.62.86.33: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 48
+02:28:16.044023 IP lamp-s-1vcpu-1gb-tor1-01 > 5.62.86.33: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 48
+

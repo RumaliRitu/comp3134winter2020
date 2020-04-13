@@ -1,0 +1,10 @@
+root@lamp-s-1vcpu-1gb-tor1-01:~# tcpdump icmp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decod
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+02:24:55.267443 IP lamp-s-1vcpu-1gb-tor1-01 > 5.62.86.33: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 48
+02:24:58.670893 IP lamp-s-1vcpu-1gb-tor1-01 > 5.62.86.33: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 48
+02:25:06.059423 IP lamp-s-1vcpu-1gb-tor1-01 > 5.62.86.33: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 48
+02:25:13.139826 IP lamp-s-1vcpu-1gb-tor1-01 > 64.225.45.79: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 68
+02:25:29.307744 IP lamp-s-1vcpu-1gb-tor1-01 > 0.ge-0-0-45.dr3-j.gdcb.continent8.com: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 48
+02:25:40.653576 IP lamp-s-1vcpu-1gb-tor1-01 > 0.ge-0-0-45.dr3-j.gdcb.continent8.com: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 48
+02:26:04.656747 IP lamp-s-1vcpu-1gb-tor1-01 > 0.ge-0-0-45.dr3-j.gdcb.continent8.com: ICMP lamp-s-1vcpu-1gb-tor1-01 tcp port ssh unreachable, length 48
